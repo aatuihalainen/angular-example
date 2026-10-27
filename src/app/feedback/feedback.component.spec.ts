@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FeedbackComponent } from './feedback.component';
-import { routes } from '../app.routes';
 import { provideRouter, Router } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
 //import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';

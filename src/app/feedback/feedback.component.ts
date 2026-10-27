@@ -25,7 +25,8 @@ import { ReactiveFormsModule } from '@angular/forms';
   styleUrl: './feedback.component.css'
 })
 export class FeedbackComponent {
-  headerText: string = "Give feedback";
+  headerText = "Give feedback";
+  testUnusedVar = "test";
 
   fbForm: FormGroup = new FormGroup({
     title: new FormControl('', [Validators.required, Validators.minLength(2), Validators.pattern('^[a-zA-Z ]*$')]),
